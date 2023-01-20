@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class parametriInputServlet
  */
-@WebServlet("/provaInput")
+@WebServlet("/successPageHTML")
 public class parametriInputServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -40,7 +40,7 @@ public class parametriInputServlet extends HttpServlet {
 		
 		
 		//response.getWriter().append("Hello world! "); 
-		request.getRequestDispatcher("/success.html").forward(request, response);
+		request.getRequestDispatcher("/src/main/webapp/WEB-INF/success.html").forward(request, response);
 
 	}
 
