@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Aggiungi artista</h1>
+	<form action="CRUDArtist" method=get>
+		Nome artista:<input type="text" name="nomeArtista" /> <br> 
+		<input type="hidden" name="scelta" value="aggiungiArtista"> 
+		<input type="submit" value="INVIA" /> 
+	</form>
+	<br><br> <hr>
+	
+	<h1>Seleziona artista</h1>
+	<form action="CRUDArtist" method=get>
+		ID artista:<input type="number" name="IDArtista" /> <br> 
+		<input type="hidden" name="scelta" value="selezionaArtista"> 
+		<input type="submit" value="INVIA" /> <br><br> <hr>
+	</form>
+	<br><br> <hr>
+	
+	<h1>Modifica artista</h1>
+	<form action="CRUDArtist" method=get>
+		ID artista da modificare:<input type="number" name="IDArtista" /> <br> 
+		Nuovo nome:<input type="text" name="nomeArtista" /> <br>
+		<input type="hidden" name="scelta" value="modificaArtista"> 
+		<input type="submit" value="INVIA" /> <br><br> <hr>
+	</form>
+	<br><br> <hr>
+	
+	<h1>Elimina artista</h1>
+	<form action="CRUDArtist" method=get>
+		ID artista da eliminare:<input type="number" name="IDArtista" /> <br> 
+		<input type="hidden" name="scelta" value="eliminaArtista"> 
+		<input type="submit" value="INVIA" /> <br><br> <hr>
+	</form>
+	<br><br> <hr>
+	
+</body>
+</html>
