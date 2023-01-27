@@ -1,0 +1,39 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>New customer</title>
+</head>
+<body>
+
+	<h1>New customer</h1>
+	<form:form>
+		<div>
+			<form:label path="name">Nome</form:label>
+			<form:input path="name" />
+		</div>
+		<div>
+			<form:label path="surname">Cognome</form:label>
+			<form:input path="surname" />
+		</div>
+		<div>
+			<form:label path="cf">Codice fiscale</form:label>
+			<form:input path="cf" />
+		</div>
+		<div>
+			<form:label path="phoneNumber">Numero di telefono</form:label>
+			<form:input path="phoneNumber" />
+		</div>
+		<div>
+			<form:label path="email">eMail</form:label>
+			<form:input path="email" />
+		</div>
+		<div>
+			<input type="submit" value="Invia">
+		</div>
+	</form:form>
+</body>
+</html>

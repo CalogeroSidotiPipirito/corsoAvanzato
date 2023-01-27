@@ -1,0 +1,30 @@
+package com.esercitazioneSpringDataAccess.web;
+
+import java.sql.DriverManager;
+
+import javax.sql.DataSource;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+
+@EnableWebMvc
+@Configuration
+@ComponentScan(basePackages = "com.esercitazioneSpringDataAccess.web.controller")
+public class AppConfig {
+	
+	
+	@Bean
+	public DataSource getDBconnection() {
+		DriverManagerDataSource ds = new DriverManagerDataSource();
+		ds.setDriverClassName("org.mariadb.jdbc.Driver");
+		ds.setUsername("root");
+		ds.setPassword("123456");
+		ds.setUrl("jdbc:mariadb://localhost:3306/esercitazionispring");
+		
+		return ds;
+	}
+
+}

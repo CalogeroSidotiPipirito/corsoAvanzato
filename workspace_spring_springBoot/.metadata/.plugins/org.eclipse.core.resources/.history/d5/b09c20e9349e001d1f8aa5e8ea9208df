@@ -1,0 +1,5 @@
+package com.esercitazione1.web.model;
+
+public class Cliente {
+
+}
