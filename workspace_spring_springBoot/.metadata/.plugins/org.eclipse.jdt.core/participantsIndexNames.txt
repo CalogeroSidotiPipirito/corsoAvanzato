@@ -1,3 +1,5 @@
 INDEX VERSION 1.131
 C:\Users\cpipirito\workspace_spring_springBoot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3922321188.index
 \esercitazioniWeb\src\main\java
+C:\Users\cpipirito\corsoAvanzato\javaDateTime\src\main\java\workspace_spring_springBoot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1680455318.index
+\esercitazioniSpringDataAccess\src\main\java

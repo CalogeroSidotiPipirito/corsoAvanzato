@@ -1,0 +1,11 @@
+package com.esercitazioneSpringDataAccess.web.dao.model;
+
+public class Product {
+
+	private int id;
+	private String name;
+	private Category idCategory;
+	private String description;
+	private int unitPrice;
+	private String unitsMeasure;
+}

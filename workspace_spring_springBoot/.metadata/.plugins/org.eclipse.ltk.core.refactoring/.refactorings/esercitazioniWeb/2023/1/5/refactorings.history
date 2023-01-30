@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;AppInitializer.java&apos; to &apos;esercitazioniSpringDataAccess/src/main/java/com.esercitazioneSpringDataAccess.web&apos;&#x0D;&#x0A;- Original project: &apos;esercitazioniWeb&apos;&#x0D;&#x0A;- Destination element: &apos;esercitazioniSpringDataAccess/src/main/java/com.esercitazioneSpringDataAccess.web&apos;&#x0D;&#x0A;- Original element: &apos;com.esercitazione1.web.AppInitializer.java&apos;" description="Copy compilation unit" destination="=esercitazioniSpringDataAccess/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.esercitazioneSpringDataAccess.web" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.esercitazione1.web{AppInitializer.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1675089202251" units="1" version="1.0"/>
+</session>

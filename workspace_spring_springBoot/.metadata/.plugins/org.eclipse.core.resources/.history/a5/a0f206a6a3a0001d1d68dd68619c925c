@@ -1,0 +1,5 @@
+package com.esercitazioneSpringDataAccess.web.dao;
+
+public interface CustomerDao {
+
+}

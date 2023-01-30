@@ -1,0 +1,7 @@
+package com.esercitazioneSpringDataAccess.web.dao.impl;
+
+import com.esercitazioneSpringDataAccess.web.dao.CustomerDao;
+
+public class CustomerDaoImpl implements CustomerDao{
+	
+}

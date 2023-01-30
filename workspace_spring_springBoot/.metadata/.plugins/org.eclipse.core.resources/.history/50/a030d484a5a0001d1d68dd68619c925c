@@ -1,0 +1,19 @@
+package com.esercitazioneSpringDataAccess.web.dao.impl;
+
+import javax.sql.DataSource;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import com.esercitazioneSpringDataAccess.web.dao.ProductDao;
+
+public class ProductDaoImpl implements ProductDao{
+	
+	private JdbcTemplate conn;
+
+	public ProductDaoImpl(DataSource ds) {
+		conn = new JdbcTemplate(ds);
+	}
+	
+	
+
+}

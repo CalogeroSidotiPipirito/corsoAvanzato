@@ -1,0 +1,21 @@
+package com.esercitazioneSpringDataAccess.web.dao.impl;
+
+import javax.sql.DataSource;
+
+import org.springframework.dao.DataAccessException;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import com.esercitazioneSpringDataAccess.web.dao.CategoryDao;
+
+public class CategoryDaoImpl implements CategoryDao{
+
+	private JdbcTemplate conn;
+
+	public CategoryDaoImpl(DataSource ds) {
+		
+		conn = new JdbcTemplate(ds);
+	}
+	
+	
+	
+}

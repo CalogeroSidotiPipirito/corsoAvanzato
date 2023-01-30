@@ -1,0 +1,75 @@
+package com.esercitazioneSpringDataAccess.web.dao.model;
+
+public class Product {
+
+	private int id;
+	private String name;
+	private Category idCategory;
+	private String description;
+	private int unitPrice;
+	private String unitsMeasure;
+
+	public Product() {
+		super();
+
+	}
+
+	public Product(int id, String name, Category idCategory, String description, int unitPrice, String unitsMeasure) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.idCategory = idCategory;
+		this.description = description;
+		this.unitPrice = unitPrice;
+		this.unitsMeasure = unitsMeasure;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Category getIdCategory() {
+		return idCategory;
+	}
+
+	public void setIdCategory(Category idCategory) {
+		this.idCategory = idCategory;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public int getUnitPrice() {
+		return unitPrice;
+	}
+
+	public void setUnitPrice(int unitPrice) {
+		this.unitPrice = unitPrice;
+	}
+
+	public String getUnitsMeasure() {
+		return unitsMeasure;
+	}
+
+	public void setUnitsMeasure(String unitsMeasure) {
+		this.unitsMeasure = unitsMeasure;
+	}
+
+}
