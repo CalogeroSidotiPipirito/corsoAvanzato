@@ -43,15 +43,18 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.esercitazioniSpringORM"/>
 			<item value="com.esercitazioni.SpringDataAccess"/>
 			<item value="com.esercitazione1.database"/>
 			<item value="com.esercitazioni.web"/>
 		</list>
 		<list key="name">
+			<item value="esercitazioniSpringORM"/>
 			<item value="esercitazioniSpringDataAccess"/>
 			<item value="esercitazioniWeb"/>
 		</list>
 		<list key="artifactId">
+			<item value="esercitazioniSpringORM"/>
 			<item value="esercitazioniSpringDataAccess"/>
 			<item value="esercitazioniWeb"/>
 		</list>
